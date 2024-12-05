@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.container{
+    background-color: rgb(17, 17, 16); 
+    padding: 15px;  
+    
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(248, 248, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding:20px;
+}
+
+.opts{
+    display: flex;
+    gap:4rem;
+    padding: 15px 40px ;
+}
+
+.wew{
+    color: aliceblue;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.wew:hover{
+    padding: 12px;
+    color: aliceblue;
+    background-color: brown;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.conts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(lol.jpg);
+    object-fit: cover;
+    height: 90vh;
+
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    height: 91vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 95%;
+}
+
+.lol {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.heada{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 0px;
+    max-width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3rem;
+    color: brown;
+    z-index: 1;
+}
+
+.xnx{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: brown;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:80px 50px 50px;
+    max-width: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-bottom: 12px;
+    z-index: 1;
+
+}
+
+
+.start{
+   padding:16px;
+   width: 10rem;
+   color: brown;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+   border-radius: 10px;
+   cursor: pointer;
+   border: none;
+   transition: 0.3s;
+   z-index: 1;
+}
+
+.start:hover{
+    background-color: brown;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
